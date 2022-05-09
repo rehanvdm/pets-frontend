@@ -1,0 +1,11 @@
+.idea
+*.js
+*.js.map
+*.d.ts
+.npmrc
+!deploy/*.js
+node_modules
+
+# CDK asset staging directory
+cdk.out
+dist
