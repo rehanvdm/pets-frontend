@@ -1,7 +1,8 @@
 # Frontend 
 
 This project is used to demo the usage of the SDK API NPM packaged that is published by the backend project here: 
-[https://github.com/rehanvdm/pets-backend](https://github.com/rehanvdm/pets-backend).
+[https://github.com/rehanvdm/pets-backend](https://github.com/rehanvdm/pets-backend). It has a basic HTML file with
+a JS file that is built from a TS file using browserify. 
 
 > You can use the GULP plugin for your IDE to debug and run the `gulpfile.js` that is used as the build script. 
 You can also run the scripts via`npm run <TASK>`  for your convenience.

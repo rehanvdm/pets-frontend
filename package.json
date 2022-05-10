@@ -4,13 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "gult_task": "node node_modules/gulp/bin/gulp.js --color --gulpfile gulpfile.js",
-    "build_source": "npm run gult_task -- build_source",
-    "watch_source": "npm run gult_task -- watch_source",
-    "cdk_bootstrap": "npm run gult_task -- cdk_bootstrap",
-    "cdk_diff": "npm run gult_task -- cdk_diff",
-    "cdk_hotswap": "npm run gult_task -- cdk_hotswap",
-    "cdk_deploy": "npm run gult_task -- cdk_deploy"
+    "gulp_task": "node node_modules/gulp/bin/gulp.js --color --gulpfile gulpfile.js",
+    "build_source": "npm run gulp_task -- build_source",
+    "watch_source": "npm run gulp_task -- watch_source",
+    "cdk_bootstrap": "npm run gulp_task -- cdk_bootstrap",
+    "cdk_diff": "npm run gulp_task -- cdk_diff",
+    "cdk_hotswap": "npm run gulp_task -- cdk_hotswap",
+    "cdk_deploy": "npm run gulp_task -- cdk_deploy"
   },
   "author": "",
   "license": "ISC",
